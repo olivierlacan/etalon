@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## 0.1.0 - October 31, 2018
+## 0.1.0 - February 05, 2019
 ### Added
 - `Etalon.time` method which accepts a string title as its first argument
 and a block argument which will store calls matching the same title and
