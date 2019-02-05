@@ -5,6 +5,7 @@ require "etalon/version"
 Gem::Specification.new do |spec|
   spec.name          = "etalon"
   spec.version       = Etalon::VERSION
+  spec.licenses      = ["MIT"]
   spec.authors       = ["Olivier Lacan"]
   spec.email         = ["hi@olivierlacan.com"]
 
