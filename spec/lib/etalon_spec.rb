@@ -29,8 +29,8 @@ RSpec.describe Etalon do
               "max: 0",
               "mean: 0.0",
               "deviation: ±0%",
-              "top 5: [0]"
-            ]
+              "top 5: [0]",
+            ],
           }
         )
       end
@@ -93,7 +93,7 @@ RSpec.describe Etalon do
 
     context "when ENV['ETALON_ACTIVE'] is truthy" do
       before do
-        ENV['ETALON_ACTIVE'] = ""
+        ENV["ETALON_ACTIVE"] = ""
       end
 
       it "is true" do
@@ -137,9 +137,8 @@ RSpec.describe Etalon do
             "max: 0",
             "mean: 0.0",
             "deviation: ±0%",
-            "top 5: [0]"
-          ]
-        }
+            "top 5: [0]",
+          ]}
       ).to({})
     end
   end

@@ -1,0 +1,6 @@
+ignore:
+  - '**/*.rb':
+    - Layout/SpaceInsideHashLiteralBraces
+    - Layout/SpaceInsideArrayLiteralBrackets
+    - Layout/SpaceAroundOperators
+    - Standard/SemanticBlocks

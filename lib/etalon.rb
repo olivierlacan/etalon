@@ -9,7 +9,7 @@ module Etalon
     # @return [Boolean] whether Etalon is active and recording metrics.
     def active?
       # rubocop:disable Style/DoubleNegation
-      !!ENV['ETALON_ACTIVE']
+      !!ENV["ETALON_ACTIVE"]
       # rubocop:enable Style/DoubleNegation
     end
 
@@ -68,10 +68,10 @@ module Etalon
             "max: #{max}",
             "mean: #{mean}",
             "deviation: ±#{deviation}%",
-            "top 5: #{top}"
+            "top 5: #{top}",
           ]
 
-          logger.debug("#{title} - #{output.join(' | ')}")
+          logger.debug("#{title} - #{output.join(" | ")}")
 
           memo[key] = output
         end
@@ -91,7 +91,7 @@ module Etalon
     #
     # @return [Boolean] Etalon's current activation status
     def activate
-      !!ENV['ETALON_ACTIVE'] = "true"
+      !!ENV["ETALON_ACTIVE"] = "true"
     end
 
     #
@@ -99,7 +99,7 @@ module Etalon
     #
     # @return [Boolean] Etalon's current activation status
     def deactivate
-      !!ENV['ETALON_ACTIVE'] = nil
+      !!ENV["ETALON_ACTIVE"] = nil
     end
 
     private
@@ -113,12 +113,12 @@ module Etalon
         count: 0,
         min: Float::INFINITY,
         max: 0,
-        all: []
+        all: [],
       }
     end
 
     def key_from(identifier:)
-      parameterize(identifier, separator: '_').to_sym
+      parameterize(identifier, separator: "_").to_sym
     end
 
     def elapsed(start)
@@ -154,7 +154,7 @@ module Etalon
         if defined?(Rails.logger)
           Rails.logger
         else
-          require('syslog/logger')
+          require("syslog/logger")
           Syslog::Logger.new
         end
       end
