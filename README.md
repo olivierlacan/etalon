@@ -57,7 +57,7 @@ If `Rails.logger` is available, Etalon will also output the following with
 a call to `Rails.logger.debug` in the relevant log file:
 
 ```
-Making Taters - count: 1 | min: 0 | max: 400 | mean: 400.0 | deviation: 0.0 | top 5: [400]
+Making Taters - count: 1 | min: 0 | max: 400 | mean: 400.0 | deviation: ±0.0% | top 5: [400]
 ```
 
 If `Rails.logger` isn't available, Etalon attempts to require
