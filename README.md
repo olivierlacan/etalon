@@ -1,4 +1,4 @@
-# Etalon
+# Etalon [![Build Status][ci-badge]][ci-url]
 
 A simple tool to instrument Ruby code and output basic metrics to a
 logger or store them in a hash.
@@ -75,3 +75,5 @@ See [contribution guidelines][contributions].
 [bugs]: https://github.com/olivierlacan/etalon/issues
 [pulls]: https://github.com/olivierlacan/etalon/pulls
 [contributions]: https://github.com/olivierlacan/etalon/blob/master/CONTRIBUTING.md
+[ci-badge]: https://travis-ci.org/olivierlacan/etalon.svg?branch=master
+[ci-url]: https://travis-ci.org/olivierlacan/etalon
