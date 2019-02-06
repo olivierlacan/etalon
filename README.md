@@ -1,4 +1,4 @@
-# Etalon [![Build Status][ci-badge]][ci-url]
+# Etalon [![Build Status][ci-badge]][ci-url] [![Gem Version][gem-badge]][gem-url]
 
 A simple tool to instrument Ruby code and output basic metrics to a
 logger or store them in a hash.
@@ -77,3 +77,5 @@ See [contribution guidelines][contributions].
 [contributions]: https://github.com/olivierlacan/etalon/blob/master/CONTRIBUTING.md
 [ci-badge]: https://travis-ci.org/olivierlacan/etalon.svg?branch=master
 [ci-url]: https://travis-ci.org/olivierlacan/etalon
+[gem-badge]: https://img.shields.io/gem/v/etalon.svg?style=flat
+[gem-url]: https://rubygems.org/gems/etalon
