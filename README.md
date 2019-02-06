@@ -50,7 +50,7 @@ Etalon.activate
 => true
 
 Etalon.print_timings
-=> {:making_taters=>["count: 1", "min: 0", "max: 400", "mean: 400.0", "deviation: 0.0", "top 5: [400]"]}
+=> {:making_taters=>["count: 1", "min: 0", "max: 400", "mean: 400.0", "deviation: ±0%", "top 5: [400]"]}
 ```
 
 If `Rails.logger` is available, Etalon will also output the following with
