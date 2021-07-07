@@ -24,7 +24,7 @@ GEM
       ast (~> 2.4.0)
     powerpack (0.1.2)
     rainbow (3.0.0)
-    rake (12.3.2)
+    rake (13.0.4)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -61,7 +61,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   etalon!
-  rake (~> 12.3)
+  rake (~> 13.0)
   rspec (~> 3.8)
   standard (~> 0.0)
   yard (~> 0.9)
