@@ -13,7 +13,6 @@
 # it.
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
-require "byebug"
 require "etalon"
 
 RSpec.configure do |config|
