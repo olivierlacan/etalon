@@ -160,8 +160,8 @@ module Etalon
       end
     end
 
-    def parameterize(*args)
-      ActiveSupport::Inflector.parameterize(*args)
+    def parameterize(*args, **kwargs, &block)
+      ActiveSupport::Inflector.parameterize(*args, **kwargs, &block)
     end
   end
 end

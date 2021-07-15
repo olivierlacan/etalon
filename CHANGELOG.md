@@ -15,6 +15,7 @@ maintained for security fixes. This is likely a breaking change if you
 depend on an outdated version of Rails or Active Support, but you should
 seriously consider upgrading and keep an eye on the [Rails maintenance 
 policy][rmp].
+- Add compatibility with Ruby 3.0 
 
 [rmp]: https://guides.rubyonrails.org/maintenance_policy.html
 
