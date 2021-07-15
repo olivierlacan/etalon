@@ -60,7 +60,7 @@ GEM
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     unicode-display_width (2.0.0)
-    yard (0.9.22)
+    yard (0.9.26)
 
 PLATFORMS
   ruby
