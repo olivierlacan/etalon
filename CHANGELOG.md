@@ -6,8 +6,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 1.0.0 - July 15, 2021
+
+### Change (backward incompatible)
+
+- Require activesupport 5.2.x because earlier releases are no longer 
+maintained for security fixes. This is likely a breaking change if you
+depend on an outdated version of Rails or Active Support, but you should
+seriously consider upgrading and keep an eye on the [Rails maintenance 
+policy][rmp].
+
+[rmp]: https://guides.rubyonrails.org/maintenance_policy.html
+
 ## 0.1.0 - February 05, 2019
+
 ### Added
+
 - `Etalon.time` method which accepts a string title as its first argument
 and a block argument which will store calls matching the same title and
 compare their minimum, maximum, and average execution time but also the
