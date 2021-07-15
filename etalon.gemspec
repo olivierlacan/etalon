@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
   spec.metadata["yard.run"] = "yri"
 
-  spec.add_dependency "activesupport", "> 5.0"
+  spec.add_dependency "activesupport", ">= 5.2"
 
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "bundler", "~> 2.2"
